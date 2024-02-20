@@ -1,0 +1,100 @@
+		body{
+			width: 1118px;
+			margin: auto;
+		}
+		
+		.tttg{
+			text-align: center;
+			color: red;
+			font-weight: bold;
+		}
+		.noidungtg{
+			box-sizing: border-box;
+			margin-left:50px ;
+		}
+		.noidungtg .infor{
+			float:left;
+		}
+		.noidungtg .infor ul{
+			list-style-type: disc;
+		}
+		.noidungtg .infor li{
+			line-height: 1.8;
+			font-size: 30px
+		}
+		.noidungtg .hinh{
+			float: right;
+			
+			margin-right: 50px;
+
+		}
+		.noidungtg img{
+			width: 250px;
+		}
+
+
+
+
+		
+
+		.dstv{
+			text-align: center;
+			color: darkblue;
+		}
+		.noidungtv{
+			margin-left:70px ;
+		}
+		.noidungtv .cacphan{
+			float:left;
+			margin-left: 20px;
+			text-align: center;
+			font-size: 20px;
+		}
+
+
+		.banner img{
+			
+			width: 1118px;
+			height: 200px;
+		}
+
+		.phanconlai .danhmuc{
+			background-color: rgb(255, 223, 227);
+			width: 270px;
+			float:left;
+			padding: 7px;
+			height: 320px;
+			
+			
+		}
+		.phanconlai .danhmuc h2{
+			text-align: center;
+			background-color: black;
+			color: white;
+			
+		}
+		.phanconlai .danhmuc ul{
+			padding: 5px;
+		}
+		.phanconlai .danhmuc li{
+			font-size: 20px;
+			list-style-type: none;
+			line-height: 3;
+			
+			
+		}
+		.phanconlai .danhmuc li a{
+			text-decoration: none;
+			color: black;
+			display: inline-block;
+		}
+		.phanconlai .danhmuc li a:hover{
+			background-color: pink;
+		}
+		.phanconlai .noidung{
+			float:right;
+			width:830px;
+			
+			border: 2px red solid;
+
+		}

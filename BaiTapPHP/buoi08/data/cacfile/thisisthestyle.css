@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #49773e;
+}
+.toanbo{
+    margin:30px auto;
+    width: 95%;
+    
+}
+.toanbo .tieude{
+    background-image:url("../hinh/banner.png") ;
+    background-size: cover;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 15px 10px black;
+}
+.toanbo .danhsach{
+    background-color: rgba(101, 255, 178, 0.5);
+    width: 30%;
+    float:left;
+    border: 2px solid cyan;
+}
+.toanbo .danhsach ul{
+    list-style-type: none;
+   
+}
+.toanbo .danhsach ul li{
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+      
+    
+}
+.toanbo .danhsach ul li a{
+    text-decoration: none;
+    color:	white;
+    font-size: 20px;
+}
+
+.toanbo .danhsach ul li:nth-child(1){
+    background-color: rgba(61, 44, 255, 0.5);
+    border-bottom: 1px solid cyan;
+    
+}
+
+.toanbo .danhsach ul li:hover{
+    background-color: 	#80DAEB;
+    
+   
+}
+.toanbo .danhsach ul li a:hover{
+   font-size: 25px;
+   color: brown;
+    
+   
+}
+
+.toanbo .danhsach ul li:nth-child(1):hover{
+    background-color: #39A78D;
+    
+   
+}
+
+.toanbo .noidung{
+    background-image: url("../hinh/noidung.png");
+   
+    float: right;
+    width: 69%;
+    
+}
+.toanbo .noidung h1{
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    color: #e6ffdf;
+}
+.toanbo .noidung p{
+    padding: 10px;
+    text-align: justify;
+    font-size: 30px;
+    color: white;
+   
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.hinh{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+}
+
+.toanbo .ngatfloat{
+    clear:both;
+}
+.toanbo .footer{
+    background-color: rgb(255, 248, 122);
+    margin-top: 15px;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d81717;
+    font-weight: bold;
+}
